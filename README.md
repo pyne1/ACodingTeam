@@ -23,3 +23,5 @@
 •	User may also use a quit option when they no longer want to play 
 
 •	All options of leaving the game or ending will bring you back to the waiting area (main page)
+
+• An image will be built on to indicate depleted lives as lives decrement
