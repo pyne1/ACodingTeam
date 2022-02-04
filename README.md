@@ -24,6 +24,7 @@
 
 &emsp;Users will have to guess the correct words in increasing difficulty. Game does not end until the user runs out of tries. For example, if the user guesses one word, but loses a few lives, then they go to the next round with the same number of lives left.. (Alternatively, you can restore a life word every 3 words guessed successfully).
 
+&emsp;Users will be able to track their remaining lives by viewing the vehicle depicted on the screen; parts will disappear for lives and reappear when lives are restored. Users will be able to track their highest scores via the leaderboard option.
 
 **Functional Requirements:**
 
@@ -41,9 +42,9 @@
 
 &emsp;•	If the user is able to guess 3 words correctly they will gain a life back
 
-&emsp;•	As the user continues to guess words correctly the difficulty level will increase as well 
+&emsp;•	If the user guesses words correctly the difficulty level will increase per every 5 correct guesses 
 
-&emsp;•	User will have a local leaderboard to keep track off their scores
+&emsp;•	User will have a local leaderboard to keep track of their top 10 scores
 
 &emsp;•	When the user uses up all of their lives the game will end 
 
