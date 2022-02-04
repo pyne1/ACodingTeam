@@ -22,9 +22,7 @@
 
 **Project Description:** *(Currently copied from Phase 0)
 
-&emsp;Users will have to guess the correct words in increasing difficulty. Game does not end until the user runs out of tries. For example, if the user guesses one word, but loses a few lives, then they go to the next round with the same number of lives left.. (Alternatively, you can restore a life word every 3 words guessed successfully).
-
-&emsp;Users will be able to track their remaining lives by viewing the vehicle depicted on the screen; parts will disappear for lives and reappear when lives are restored. Users will be able to track their highest scores via the leaderboard option.
+&emsp;Users will have to guess the correct words in increasing difficulty. Game does not end until the user runs out of tries. For example, if the user guesses one word, but loses a few lives, then they go to the next round with the same number of lives left.. (Alternatively, you can restore a life word every 3 words guessed successfully). Users will be able to track their remaining lives by viewing the vehicle depicted on the screen. Users will be able to track their highest scores via the leaderboard option.
 
 **Functional Requirements:**
 
@@ -52,4 +50,4 @@
 
 &emsp;•	All options of leaving the game or ending will bring you back to the waiting area (main page)
 
-&emsp;• An image will be built on to indicate depleted lives as lives decrement
+&emsp;• An image of a vehicle will be built on to indicate number of lives; parts will disappear for lives lost and reappear when lives are restored
