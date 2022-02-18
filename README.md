@@ -51,3 +51,5 @@
 &emsp;•	All options of leaving the game or ending will bring you back to the waiting area (main page)
 
 &emsp;• An image of a vehicle will be built on to indicate number of lives; parts will disappear for lives lost and reappear when lives are restored
+
+**Wireframe** (Please refer to Hangman (Vehicle Edition) Wireframe.pdf to view all our Wireframes)
