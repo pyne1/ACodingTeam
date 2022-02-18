@@ -54,4 +54,4 @@
 
 **Wireframe**: 
 
-&emsp; To view our Wireframe please refer to our [Wireframe.pdf](main/Wireframe.pdf) file
+&emsp; To view our Wireframe please refer to our [Wireframe.pdf](https://github.com/pyne1/ACodingTeam/blob/main/Wireframe.pdf) file
