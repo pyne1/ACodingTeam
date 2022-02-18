@@ -52,4 +52,4 @@
 
 &emsp;• An image of a vehicle will be built on to indicate number of lives; parts will disappear for lives lost and reappear when lives are restored
 
-**Wireframe** (Please refer to Hangman (Vehicle Edition) Wireframe.pdf to view all our Wireframes)
+**Wireframe**: To view our Wireframe please refer to our Wireframe.pdf file
