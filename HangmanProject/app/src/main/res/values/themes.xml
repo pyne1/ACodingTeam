@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HangmanProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#877D6E</item>
+        <item name="colorPrimaryVariant">#b09d80</item>
+        <item name="colorOnPrimary">#b09d80</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#877D6E</item>
+        <item name="colorSecondaryVariant">#b09d80</item>
+        <item name="colorOnSecondary">#b09d80</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

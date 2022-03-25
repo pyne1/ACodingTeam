@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44454F"
+    android:padding="5dp"
+    tools:context=".Game">
+
+
+    <LinearLayout
+        android:id="@+id/keyboard1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/letter1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonQ"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonW"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonE"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonR"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter5"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonT"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter6"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonY"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter7"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonU"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter8"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonI"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter9"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonO"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter10"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonP"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keyboard2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/letter11"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonA"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter12"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonS"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter13"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonD"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter14"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonF"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter15"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonG"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter16"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonH"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter17"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonJ"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter18"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonK"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter19"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonL"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keyboard3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/letter20"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonZ"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter21"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonX"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter22"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonC"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter23"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonV"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter24"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonB"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter25"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonN"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+        <Button
+            android:id="@+id/letter26"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:onClick="checkLetter"
+            android:padding="0dp"
+            android:text="@string/buttonM"
+            android:textSize="14dp"
+            app:iconPadding="2dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/livesLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/livesLeft"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/carImage"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toTopOf="@+id/hiddenWord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/hiddenWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.5"
+        android:text="@string/hiddenWrd"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pauseGame"
+        android:text="@string/pauseBtn"
+        app:iconPadding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreViewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreTracker"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/livesLeft" />
+
+    <LinearLayout
+        android:id="@+id/pausedScreen"
+        android:layout_width="399dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="GAME PAUSED"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/continueGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="unpauseGame"
+            android:text="@string/continueGameBtn" />
+
+        <Button
+            android:id="@+id/muteVolumeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/muteVolumeBtn" />
+
+        <Button
+            android:id="@+id/quitGameBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="openMenu"
+            android:text="@string/quitGameBtn" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

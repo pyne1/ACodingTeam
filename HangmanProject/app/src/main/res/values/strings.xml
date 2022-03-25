@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HangmanProject</string>
+    <string name="settings">SETTINGS</string>
+    <string name="newGame">NEW GAME</string>
+    <string name="howToPlay">HOW TO PLAY</string>
+    <string name="highScore">HIGH SCORE</string>
+    <string name="gameTitle">HANGMAN: VEHICLE EDITION</string>
+
+    <string name="buttonQ">Q</string>
+    <string name="buttonW">W</string>
+    <string name="buttonE">E</string>
+    <string name="buttonR">R</string>
+    <string name="buttonT">T</string>
+    <string name="buttonY">Y</string>
+    <string name="buttonU">U</string>
+    <string name="buttonI">I</string>
+    <string name="buttonO">O</string>
+    <string name="buttonP">P</string>
+    <string name="buttonA">A</string>
+    <string name="buttonS">S</string>
+    <string name="buttonD">D</string>
+    <string name="buttonF">F</string>
+    <string name="buttonG">G</string>
+    <string name="buttonH">H</string>
+    <string name="buttonJ">J</string>
+    <string name="buttonK">K</string>
+    <string name="buttonL">L</string>
+    <string name="buttonZ">Z</string>
+    <string name="buttonX">X</string>
+    <string name="buttonC">C</string>
+    <string name="buttonV">V</string>
+    <string name="buttonB">B</string>
+    <string name="buttonN">N</string>
+    <string name="buttonM">M</string>
+    <string name="hiddenWrd">blank</string>
+    <string name="livesLeft">Lives: 5</string>
+    <string name="pauseBtn">Pause</string>
+    <string name="bestScore">"Best Score: "</string>
+    <string name="scoreTracker">Score : 0</string>
+    <string name="continueGameBtn">CONTINUE</string>
+    <string name="muteVolumeBtn">Sound: On</string>
+    <string name="quitGameBtn">QUIT GAME</string>
+
+
+</resources>
